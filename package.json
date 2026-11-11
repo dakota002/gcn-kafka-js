@@ -15,6 +15,7 @@
     "prepare": "tsc",
     "format": "prettier -w ."
   },
+  "type": "module",
   "contributors": [
     {
       "name": "Leo Singer",
@@ -34,7 +35,7 @@
     "node": ">=18 <25"
   },
   "dependencies": {
-    "@confluentinc/kafka-javascript": "^1.10.0"
+    "@platformatic/kafka": "^2.15.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.4",
